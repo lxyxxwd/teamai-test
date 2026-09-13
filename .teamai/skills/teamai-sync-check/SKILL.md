@@ -1,6 +1,13 @@
 ---
 name: teamai-sync-check
-description: Confirm that this AI tool successfully received the shared TeamAI test skill. Use when the user asks to verify TeamAI skill synchronization or invokes teamai-sync-check.
+display_name: TeamAI 同步检查
+display_name_en: TeamAI Sync Check
+description: 验证当前 AI 工具是否已成功加载 TeamAI 分发的测试技能；当用户要求检查 TeamAI Skill 同步或调用 teamai-sync-check 时使用。
+description_zh: 验证当前 AI 工具是否已成功加载 TeamAI 分发的测试技能。
+description_en: Confirms that the current AI tool successfully loaded the test skill distributed by TeamAI.
+version: 1.0.1
+author: TeamAI Sync Test
+user-invocable: true
 ---
 
 # TeamAI Sync Check
